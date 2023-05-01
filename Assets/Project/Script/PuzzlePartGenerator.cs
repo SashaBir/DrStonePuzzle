@@ -1,5 +1,4 @@
-﻿using System;
-using UnityEngine;
+﻿using UnityEngine;
 
 namespace Puzzle
 {
@@ -20,15 +19,18 @@ namespace Puzzle
         {
             var spawnpoints = _spawnpoints.Shuffle();
             for (int i = 0; i < _sprites.Length; i++)
-            {
-                PuzzlePart part = Instantiate(_puzzlePart, _container);
-                part.name = $"Puzzle {i}";
+                Spawn(spawnpoints, i);
+        }
 
-                part.Init(i, _sprites[i], _size);
-                part.SetPosition(spawnpoints[i].anchoredPosition);
-                part.Resize();
-                part.Offset();
-            }
+        private void Spawn(RectTransform[] spawnpoints, int i)
+        {
+            PuzzlePart part = Instantiate(_puzzlePart, _container);
+            part.name = $"Puzzle {i}";
+
+            part.Init(i, _sprites[i], _size);
+            part.SetPosition(spawnpoints[i].anchoredPosition);
+            part.Resize();
+            part.Offset();
         }
     }
 }
