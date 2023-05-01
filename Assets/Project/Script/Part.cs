@@ -28,7 +28,7 @@ namespace Puzzle
 
         public void SetPosition(Vector2 position)
         {
-            _image.rectTransform.anchoredPosition = position;
+            _image.rectTransform.transform.position = position;
         }
 
         public void Resize()
@@ -51,7 +51,7 @@ namespace Puzzle
                 y = (y + _size.y) / 2 - _size.y
             };
 
-            SetPosition(_image.rectTransform.anchoredPosition - offset);
+            SetPosition((Vector2)_image.rectTransform.transform.position - offset);
         }
     }
 }

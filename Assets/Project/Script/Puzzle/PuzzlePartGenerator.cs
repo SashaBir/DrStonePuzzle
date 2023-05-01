@@ -28,7 +28,7 @@ namespace Puzzle
             part.name = $"Puzzle {i}";
 
             part.Init(i, _sprites[i], _size);
-            part.SetPosition(spawnpoints[i].anchoredPosition);
+            part.SetPosition(spawnpoints[i].transform.position);
             part.Resize();
             part.Offset();
         }
