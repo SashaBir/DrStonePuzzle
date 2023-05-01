@@ -9,7 +9,10 @@ namespace Puzzle
 
         [field: SerializeField] public int Id { get; private set; }
 
+
         private Vector2 _size;
+
+        public RectTransform Rect => _image.rectTransform;
 
         public void Init(int id)
         {
