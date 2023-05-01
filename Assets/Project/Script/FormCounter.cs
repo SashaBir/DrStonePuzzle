@@ -9,7 +9,9 @@ namespace Puzzle
         private void Start()
         {
             for (int i = 0; i < _formParts.Length; i++)
+            {
                 _formParts[i].Init(i);
+            }
         }
     }
 }

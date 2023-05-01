@@ -1,14 +1,7 @@
-using UnityEngine;
-
 namespace Puzzle
 {
-    public class FormPart : MonoBehaviour
+    public class FormPart : Part
     {
-        [field: SerializeField] public int Id { get; private set; }
 
-        public void Init(int id)
-        {
-            Id = id;
-        }
     }
 }
