@@ -6,8 +6,9 @@ namespace Puzzle
     public class PuzzelSolver : MonoBehaviour
     {
         [SerializeField] private PuzzleBinder _binder;
-        [SerializeField] private int _totalPuzzle;
         [SerializeField] private FormPart[] _formParts;
+
+        [field: SerializeField] public int TotalPuzzle { get; private set; }
 
         public event Action OnAssambled;
 
@@ -28,7 +29,7 @@ namespace Puzzle
         private void OnAdd()
         {
             counter++;
-            if (counter == _totalPuzzle)
+            if (counter == TotalPuzzle)
                 OnAssambled?.Invoke();
         }
 
