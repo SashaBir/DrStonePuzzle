@@ -13,7 +13,6 @@ namespace Puzzle
         public event Action OnTimeOut;
 
         private Coroutine _coroutine;
-        private bool _isPaused = false;
 
         public int Counter { get; private set; }
 
@@ -36,18 +35,18 @@ namespace Puzzle
 
         public void Pause()
         {
-            _isPaused =  true;
+            Game.Pause();
         }
 
         public void Unpause()
         {
-            _isPaused = false;
+            Game.Unpause();
         }
 
         private IEnumerator Count()
         {
             var delay = new WaitForSeconds(1);
-            var waiter = new WaitWhile(() => _isPaused == true);
+            var waiter = new WaitWhile(() => Game.IsPaused == true);
 
             for (int i = _second - 1; i >= 0; i--)
             {
