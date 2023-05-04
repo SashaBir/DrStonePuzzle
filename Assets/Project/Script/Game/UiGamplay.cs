@@ -2,7 +2,7 @@
 using UnityEngine.UI;
 
 namespace Puzzle
-{//
+{
     public class UiGamplay : MonoBehaviour
     {
         [Header("Logic")]
