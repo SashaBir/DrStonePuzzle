@@ -22,6 +22,11 @@ namespace Puzzle
             _binder.OnUnbinded += OnReduce;
         }
 
+        public void ResetCounter()
+        {
+            UpdateText(-_counter);
+        }
+
         private void OnDisable()
         {
             _binder.OnBinded -= OnAdd;

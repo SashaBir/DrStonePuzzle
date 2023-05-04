@@ -10,19 +10,27 @@ namespace Puzzle
         [SerializeField] private Transform _container;
         [SerializeField] private Vector2 _size;
 
+        private GameObject[] _spawnedPuzzle;
+
         private void Start()
         {
-            Generate();
+            _spawnedPuzzle = new GameObject[_sprites.Length];
         }
 
-        private void Generate()
+        public void Generate()
         {
             var spawnpoints = _spawnpoints.Shuffle();
             for (int i = 0; i < _sprites.Length; i++)
-                Spawn(spawnpoints, i);
+                _spawnedPuzzle[i] = Spawn(spawnpoints, i);
         }
 
-        private void Spawn(RectTransform[] spawnpoints, int i)
+        public void Delete()
+        {
+            for (int i = 0; i < _sprites.Length; i++)
+                Destroy(_spawnedPuzzle[i]);
+        }
+
+        private GameObject Spawn(RectTransform[] spawnpoints, int i)
         {
             PuzzlePart part = Instantiate(_puzzlePart, _container);
             part.name = $"Puzzle {i}";
@@ -31,6 +39,8 @@ namespace Puzzle
             part.SetPosition(spawnpoints[i].transform.position);
             part.Resize();
             part.Offset();
+
+            return part.gameObject;
         }
     }
 }

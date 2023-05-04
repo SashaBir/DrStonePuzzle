@@ -14,11 +14,9 @@ namespace Puzzle
 
         private Coroutine _coroutine;
 
-        public int Counter { get; private set; }
-
         private void Start()
         {
-            StartTimer();
+            _text.text = CalculateTime(_second);
         }
 
         public void StartTimer()
@@ -30,7 +28,16 @@ namespace Puzzle
         public void StopTimer()
         {
             if (_coroutine != null)
+            {
                 StopCoroutine(_coroutine);
+                _coroutine = null;
+            }    
+        }
+
+        public void RestartTimer()
+        {
+            StopTimer();
+            StartTimer();
         }
 
         public void Pause()

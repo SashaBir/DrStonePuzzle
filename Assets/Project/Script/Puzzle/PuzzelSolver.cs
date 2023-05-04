@@ -12,7 +12,7 @@ namespace Puzzle
 
         public event Action OnAssambled;
 
-        private int counter = 0;
+        private int _counter = 0;
 
         private void OnEnable()
         {
@@ -26,16 +26,21 @@ namespace Puzzle
             _binder.OnUnbinded -= OnRemove;
         }
 
+        public void ResetCounter()
+        {
+            _counter = 0;
+        }
+
         private void OnAdd()
         {
-            counter++;
-            if (counter == TotalPuzzle)
+            _counter++;
+            if (_counter == TotalPuzzle)
                 OnAssambled?.Invoke();
         }
 
         private void OnRemove()
         {
-            counter--;
+            _counter--;
         }
     }
 }

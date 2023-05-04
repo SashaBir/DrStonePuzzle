@@ -47,6 +47,5 @@ namespace Puzzle
 
             OnUnbinded?.Invoke();
         }
-
     }
 }

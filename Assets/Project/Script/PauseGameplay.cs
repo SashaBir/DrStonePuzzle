@@ -3,13 +3,12 @@ using UnityEngine.UI;
 
 namespace Puzzle
 {
-    public class Gameplay : MonoBehaviour
+    public class PauseGameplay : MonoBehaviour
     {
         [SerializeField] private Timer _timer;
         [SerializeField] private GameObject _pausePanel;
         [SerializeField] private Button _pause;
         [SerializeField] private Button _unpause;
-        [SerializeField] private Button _menu;
 
         private void OnEnable()
         {
