@@ -4279,7 +4279,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _text: {fileID: 503592223}
-  _second: 2
+  _second: 180
 --- !u!114 &633446242
 MonoBehaviour:
   m_ObjectHideFlags: 0
