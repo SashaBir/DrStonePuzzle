@@ -3770,6 +3770,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2bbd1cb28c65b7c4a8243da0247abf3d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _wonOver: {fileID: 0}
+  _timeOutOver: {fileID: 0}
   _timer: {fileID: 633446241}
   _binder: {fileID: 633446237}
   _formParts:

@@ -5,6 +5,8 @@ namespace Puzzle
 {
     public class PuzzelSolver : MonoBehaviour
     {
+        [Header("Logic")]
+        [SerializeField] private GameOverPuzzle _gameOver;
         [SerializeField] private Timer _timer;
         [SerializeField] private PuzzleBinder _binder;
         [SerializeField] private FormPart[] _formParts;
@@ -42,6 +44,8 @@ namespace Puzzle
                 return;
 
             _status = EndStatus.TimeOut;
+
+            _gameOver.ShowTimeOutPanel();
             OnDisassambleds?.Invoke();
         }
 
@@ -56,6 +60,7 @@ namespace Puzzle
 
             _status = EndStatus.Assambled;
 
+            _gameOver.ShowWonPanel();
             _timer.Pause();
             OnAssambled?.Invoke();
         }
