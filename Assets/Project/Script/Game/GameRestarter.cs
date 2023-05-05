@@ -8,6 +8,7 @@ namespace Puzzle
         [SerializeField] private PuzzlePartGenerator _generator;
         [SerializeField] private PuzzleCounter _counter;
         [SerializeField] private Timer _timer;
+        [SerializeField] private GameObject _gameOverPanel;
 
         public void RestartGame()
         {
@@ -18,6 +19,8 @@ namespace Puzzle
 
             _timer.RestartTimer();
             _counter.ResetCounter();
+
+            _gameOverPanel.SetActive(false);    
         }
     }
 }

@@ -35,6 +35,7 @@ namespace Puzzle
 
         public void ResetCounter()
         {
+            _status = EndStatus.None;
             _counter = 0;
         }
 

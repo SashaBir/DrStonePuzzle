@@ -1,5 +1,4 @@
 ﻿using UnityEngine;
-using UnityEngine.UI;
 
 namespace Puzzle
 {
@@ -10,30 +9,20 @@ namespace Puzzle
         [SerializeField] private GameShutdowner _shutdowner;
 
         [Header("Ui")]
-        [SerializeField] private Button _menuButton;
-        [SerializeField] private Button _restartButton;
-        [SerializeField] private GameObject _selfPuzzle;
         [SerializeField] private GameObject _puzzlePanel;
         [SerializeField] private GameObject _listLevelPanel;
         [SerializeField] private GameObject _panel;
         [SerializeField] private GameObject _wonText;
         [SerializeField] private GameObject _timeOutText;
 
-        private void OnEnable()
-        {
-            _menuButton.onClick.AddListener(OnExit);
-            _restartButton.onClick.AddListener(OnRestart);
-        }
-
         private void OnDisable()
         {
-            _menuButton.onClick.RemoveListener(OnExit);
-            _restartButton.onClick.RemoveListener(OnRestart);
+            _panel.SetActive(false);
         }
 
         public void ShowWonPanel()
         {
-            _panel.SetActive(false);
+            _panel.SetActive(true);
 
             _wonText.SetActive(true);
             _timeOutText.SetActive(false);
@@ -41,27 +30,10 @@ namespace Puzzle
 
         public void ShowTimeOutPanel()
         {
-            _panel.SetActive(false);
+            _panel.SetActive(true);
 
             _wonText.SetActive(false);
             _timeOutText.SetActive(true);
-        }
-
-        private void OnExit()
-        {
-            _shutdowner.ShutdownGame();
-
-            _selfPuzzle.SetActive(false);
-            _puzzlePanel.SetActive(false);
-            _listLevelPanel.SetActive(true);
-
-            _panel.SetActive(false);
-        }
-
-        private void OnRestart()
-        {
-            _restarter.RestartGame();
-            _panel.SetActive(false);
         }
     }
 }
