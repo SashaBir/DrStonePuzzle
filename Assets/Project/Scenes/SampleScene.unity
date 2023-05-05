@@ -1242,7 +1242,7 @@ GameObject:
   m_Component:
   - component: {fileID: 267434920}
   m_Layer: 5
-  m_Name: 1
+  m_Name: Puzzle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3694,7 +3694,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &633446234
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4022,6 +4022,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a608310268c3ad149af98c77bfbf1b31, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _restarter: {fileID: 633446244}
+  _shutdowner: {fileID: 633446243}
+  _menuButton: {fileID: 1436830124}
+  _restartButton: {fileID: 803830964}
 --- !u!1 &637751042
 GameObject:
   m_ObjectHideFlags: 0
@@ -4354,7 +4358,7 @@ GameObject:
   m_Component:
   - component: {fileID: 673868899}
   m_Layer: 5
-  m_Name: Levels
+  m_Name: List Levels
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6982,6 +6986,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1112789979}
+  - component: {fileID: 1112789980}
   m_Layer: 5
   m_Name: Game
   m_TagString: Untagged
@@ -7011,6 +7016,24 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1112789980
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1112789978}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c20f7b7c03d3a874199d14f32b801cf8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _listLevelsPanel: {fileID: 673868898}
+  _puzzlePanel: {fileID: 267434919}
+  _levels:
+  - <Starter>k__BackingField: {fileID: 633446245}
+    <Play>k__BackingField: {fileID: 1019847168}
+    <Panel>k__BackingField: {fileID: 633446233}
 --- !u!1 &1117940675
 GameObject:
   m_ObjectHideFlags: 0

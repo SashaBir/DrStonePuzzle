@@ -12,14 +12,11 @@ namespace Puzzle
 
         private GameObject[] _spawnedPuzzle;
 
-        private void Start()
-        {
-            _spawnedPuzzle = new GameObject[_sprites.Length];
-        }
-
         public void Generate()
         {
+            _spawnedPuzzle = new GameObject[_sprites.Length];
             var spawnpoints = _spawnpoints.Shuffle();
+
             for (int i = 0; i < _sprites.Length; i++)
                 _spawnedPuzzle[i] = Spawn(spawnpoints, i);
         }
