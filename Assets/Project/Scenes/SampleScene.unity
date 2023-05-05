@@ -4026,6 +4026,9 @@ MonoBehaviour:
   _shutdowner: {fileID: 633446243}
   _menuButton: {fileID: 1436830124}
   _restartButton: {fileID: 803830964}
+  _selfPuzzle: {fileID: 633446233}
+  _puzzlePanel: {fileID: 267434919}
+  _listLevelPanel: {fileID: 673868898}
 --- !u!1 &637751042
 GameObject:
   m_ObjectHideFlags: 0
