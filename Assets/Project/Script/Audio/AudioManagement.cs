@@ -6,6 +6,9 @@ namespace Puzzle
     {
         [SerializeField] private AudioSource _music;
         [SerializeField] private AudioSource _sound;
+        [SerializeField] private AudioClip _buttonClickSound;
+        [SerializeField] private AudioClip _wonSound;
+        [SerializeField] private AudioClip _timeOutSound;
 
         public static AudioManagement Instance { get; private set; }
 
@@ -40,10 +43,28 @@ namespace Puzzle
             _music.Stop();
         }
 
-        public void PlayButtonClick()
+        public void PlayButtonClickSound()
         {
-            if (IsPlayingSound ==true)
-                _sound.Play();
+            Play(_buttonClickSound);
+        }
+
+        public void PlayWonSound()
+        {
+            Play(_wonSound);
+        }
+
+        public void PlayTimeOutSound()
+        {
+            Play(_timeOutSound);
+        }
+
+        private void Play(AudioClip clip)
+        {
+            if (IsPlayingSound == false)
+                return;
+
+            _sound.clip = clip;
+            _sound.Play();
         }
     }
 }

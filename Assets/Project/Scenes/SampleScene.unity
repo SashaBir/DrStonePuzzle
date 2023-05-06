@@ -13139,6 +13139,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dbf71e5da9a74ca4fb1d39a7da4397a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _music: {fileID: 1758435470}
+  _sound: {fileID: 901443916}
+  _buttonClickSound: {fileID: 0}
+  _wonSound: {fileID: 0}
+  _timeOutSound: {fileID: 0}
 --- !u!1001 &2106825263
 PrefabInstance:
   m_ObjectHideFlags: 0
