@@ -1615,7 +1615,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _text: {fileID: 0}
-  _second: 180
+  _second: 90
 --- !u!114 &6746820585524287781
 MonoBehaviour:
   m_ObjectHideFlags: 0
