@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.UI;
 
 namespace Puzzle
 {
@@ -9,6 +10,10 @@ namespace Puzzle
         [SerializeField] private AudioClip _buttonClickSound;
         [SerializeField] private AudioClip _wonSound;
         [SerializeField] private AudioClip _timeOutSound;
+        [SerializeField] private AudioClip _setPuzzle;
+        [SerializeField] private AudioClip _takenPuzzle;
+
+        private Button[] _buttons;
 
         public static AudioManagement Instance { get; private set; }
 
@@ -19,6 +24,19 @@ namespace Puzzle
         public void Awake()
         {
             Instance ??= this;
+        }
+
+        private void Start()
+        {
+            _buttons = FindObjectsOfType<Button>(true);
+            foreach (var button in _buttons)
+                button.onClick.AddListener(PlayButtonClickSound);
+        }
+
+        private void OnDisable()
+        { 
+            foreach (var button in _buttons)
+                button.onClick.RemoveListener(PlayButtonClickSound);
         }
 
         public void SoundOn()
@@ -56,6 +74,16 @@ namespace Puzzle
         public void PlayTimeOutSound()
         {
             Play(_timeOutSound);
+        }
+
+        public void PlaySetPuzzleSound()
+        {
+            Play(_setPuzzle);
+        }
+
+        public void PlayTakenPuzzleSound()
+        {
+            Play(_takenPuzzle);
         }
 
         private void Play(AudioClip clip)

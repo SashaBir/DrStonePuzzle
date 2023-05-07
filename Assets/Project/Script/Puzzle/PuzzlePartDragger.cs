@@ -22,6 +22,8 @@ namespace Puzzle
             if (eventData.pointerEnter == null || eventData.pointerEnter.TryGetComponent(out PuzzlePart puzzlePart) == false)
                 return;
 
+            AudioManagement.Instance.PlayTakenPuzzleSound();
+
             _puzzlePart = puzzlePart;
             OnDragBigun?.Invoke(puzzlePart);
         }
@@ -48,6 +50,8 @@ namespace Puzzle
 
             if (_puzzlePart == null)
                 return;
+
+            AudioManagement.Instance.PlaySetPuzzleSound();
 
             OnDragEnded?.Invoke(_puzzlePart);
             _puzzlePart = null;
