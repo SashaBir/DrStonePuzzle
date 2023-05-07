@@ -196,6 +196,10 @@ PrefabInstance:
       propertyPath: _text
       value: 
       objectReference: {fileID: 503592223}
+    - target: {fileID: 1336661764620153451, guid: 7552c871d405f2c419bd6e5c9e9a8157, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1487338039236890899, guid: 7552c871d405f2c419bd6e5c9e9a8157, type: 3}
       propertyPath: _canvas
       value: 
@@ -308,6 +312,10 @@ PrefabInstance:
       propertyPath: _pausePanel
       value: 
       objectReference: {fileID: 308876897}
+    - target: {fileID: 7712201986472112136, guid: 7552c871d405f2c419bd6e5c9e9a8157, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7717020776074197856, guid: 7552c871d405f2c419bd6e5c9e9a8157, type: 3}
       propertyPath: _menuButton
       value: 
@@ -816,6 +824,10 @@ PrefabInstance:
       propertyPath: _text
       value: 
       objectReference: {fileID: 503592223}
+    - target: {fileID: 1336661764620153451, guid: 7552c871d405f2c419bd6e5c9e9a8157, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1487338039236890899, guid: 7552c871d405f2c419bd6e5c9e9a8157, type: 3}
       propertyPath: _canvas
       value: 
@@ -928,6 +940,10 @@ PrefabInstance:
       propertyPath: _pausePanel
       value: 
       objectReference: {fileID: 308876897}
+    - target: {fileID: 7712201986472112136, guid: 7552c871d405f2c419bd6e5c9e9a8157, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7717020776074197856, guid: 7552c871d405f2c419bd6e5c9e9a8157, type: 3}
       propertyPath: _menuButton
       value: 
@@ -1512,6 +1528,10 @@ PrefabInstance:
       propertyPath: _text
       value: 
       objectReference: {fileID: 503592223}
+    - target: {fileID: 1336661764620153451, guid: 7552c871d405f2c419bd6e5c9e9a8157, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1487338039236890899, guid: 7552c871d405f2c419bd6e5c9e9a8157, type: 3}
       propertyPath: _canvas
       value: 
@@ -1624,6 +1644,10 @@ PrefabInstance:
       propertyPath: _pausePanel
       value: 
       objectReference: {fileID: 308876897}
+    - target: {fileID: 7712201986472112136, guid: 7552c871d405f2c419bd6e5c9e9a8157, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7717020776074197856, guid: 7552c871d405f2c419bd6e5c9e9a8157, type: 3}
       propertyPath: _menuButton
       value: 
@@ -1782,6 +1806,10 @@ PrefabInstance:
       propertyPath: _text
       value: 
       objectReference: {fileID: 503592223}
+    - target: {fileID: 1336661764620153451, guid: 7552c871d405f2c419bd6e5c9e9a8157, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1487338039236890899, guid: 7552c871d405f2c419bd6e5c9e9a8157, type: 3}
       propertyPath: _canvas
       value: 
@@ -1894,6 +1922,10 @@ PrefabInstance:
       propertyPath: _pausePanel
       value: 
       objectReference: {fileID: 308876897}
+    - target: {fileID: 7712201986472112136, guid: 7552c871d405f2c419bd6e5c9e9a8157, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7717020776074197856, guid: 7552c871d405f2c419bd6e5c9e9a8157, type: 3}
       propertyPath: _menuButton
       value: 
@@ -2093,6 +2125,10 @@ PrefabInstance:
       propertyPath: _text
       value: 
       objectReference: {fileID: 503592223}
+    - target: {fileID: 1336661764620153451, guid: 7552c871d405f2c419bd6e5c9e9a8157, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1487338039236890899, guid: 7552c871d405f2c419bd6e5c9e9a8157, type: 3}
       propertyPath: _canvas
       value: 
@@ -2205,6 +2241,10 @@ PrefabInstance:
       propertyPath: _pausePanel
       value: 
       objectReference: {fileID: 308876897}
+    - target: {fileID: 7712201986472112136, guid: 7552c871d405f2c419bd6e5c9e9a8157, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7717020776074197856, guid: 7552c871d405f2c419bd6e5c9e9a8157, type: 3}
       propertyPath: _menuButton
       value: 
@@ -2363,6 +2403,10 @@ PrefabInstance:
       propertyPath: _text
       value: 
       objectReference: {fileID: 503592223}
+    - target: {fileID: 1336661764620153451, guid: 7552c871d405f2c419bd6e5c9e9a8157, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1487338039236890899, guid: 7552c871d405f2c419bd6e5c9e9a8157, type: 3}
       propertyPath: _canvas
       value: 
@@ -2475,6 +2519,10 @@ PrefabInstance:
       propertyPath: _pausePanel
       value: 
       objectReference: {fileID: 308876897}
+    - target: {fileID: 7712201986472112136, guid: 7552c871d405f2c419bd6e5c9e9a8157, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7717020776074197856, guid: 7552c871d405f2c419bd6e5c9e9a8157, type: 3}
       propertyPath: _menuButton
       value: 
@@ -3870,6 +3918,10 @@ PrefabInstance:
       propertyPath: _text
       value: 
       objectReference: {fileID: 503592223}
+    - target: {fileID: 1336661764620153451, guid: 7552c871d405f2c419bd6e5c9e9a8157, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1487338039236890899, guid: 7552c871d405f2c419bd6e5c9e9a8157, type: 3}
       propertyPath: _canvas
       value: 
@@ -3982,6 +4034,10 @@ PrefabInstance:
       propertyPath: _pausePanel
       value: 
       objectReference: {fileID: 308876897}
+    - target: {fileID: 7712201986472112136, guid: 7552c871d405f2c419bd6e5c9e9a8157, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7717020776074197856, guid: 7552c871d405f2c419bd6e5c9e9a8157, type: 3}
       propertyPath: _menuButton
       value: 
@@ -4140,6 +4196,10 @@ PrefabInstance:
       propertyPath: _text
       value: 
       objectReference: {fileID: 503592223}
+    - target: {fileID: 1336661764620153451, guid: 7552c871d405f2c419bd6e5c9e9a8157, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1487338039236890899, guid: 7552c871d405f2c419bd6e5c9e9a8157, type: 3}
       propertyPath: _canvas
       value: 
@@ -4252,6 +4312,10 @@ PrefabInstance:
       propertyPath: _pausePanel
       value: 
       objectReference: {fileID: 308876897}
+    - target: {fileID: 7712201986472112136, guid: 7552c871d405f2c419bd6e5c9e9a8157, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7717020776074197856, guid: 7552c871d405f2c419bd6e5c9e9a8157, type: 3}
       propertyPath: _menuButton
       value: 
@@ -4636,6 +4700,10 @@ PrefabInstance:
       propertyPath: _text
       value: 
       objectReference: {fileID: 503592223}
+    - target: {fileID: 1336661764620153451, guid: 7552c871d405f2c419bd6e5c9e9a8157, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1487338039236890899, guid: 7552c871d405f2c419bd6e5c9e9a8157, type: 3}
       propertyPath: _canvas
       value: 
@@ -4748,6 +4816,10 @@ PrefabInstance:
       propertyPath: _pausePanel
       value: 
       objectReference: {fileID: 308876897}
+    - target: {fileID: 7712201986472112136, guid: 7552c871d405f2c419bd6e5c9e9a8157, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7717020776074197856, guid: 7552c871d405f2c419bd6e5c9e9a8157, type: 3}
       propertyPath: _menuButton
       value: 
@@ -5065,6 +5137,10 @@ PrefabInstance:
       propertyPath: _text
       value: 
       objectReference: {fileID: 503592223}
+    - target: {fileID: 1336661764620153451, guid: 7552c871d405f2c419bd6e5c9e9a8157, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1487338039236890899, guid: 7552c871d405f2c419bd6e5c9e9a8157, type: 3}
       propertyPath: _canvas
       value: 
@@ -5177,6 +5253,10 @@ PrefabInstance:
       propertyPath: _pausePanel
       value: 
       objectReference: {fileID: 308876897}
+    - target: {fileID: 7712201986472112136, guid: 7552c871d405f2c419bd6e5c9e9a8157, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7717020776074197856, guid: 7552c871d405f2c419bd6e5c9e9a8157, type: 3}
       propertyPath: _menuButton
       value: 
@@ -5456,6 +5536,10 @@ PrefabInstance:
       propertyPath: _text
       value: 
       objectReference: {fileID: 503592223}
+    - target: {fileID: 1336661764620153451, guid: 7552c871d405f2c419bd6e5c9e9a8157, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1487338039236890899, guid: 7552c871d405f2c419bd6e5c9e9a8157, type: 3}
       propertyPath: _canvas
       value: 
@@ -5568,6 +5652,10 @@ PrefabInstance:
       propertyPath: _pausePanel
       value: 
       objectReference: {fileID: 308876897}
+    - target: {fileID: 7712201986472112136, guid: 7552c871d405f2c419bd6e5c9e9a8157, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7717020776074197856, guid: 7552c871d405f2c419bd6e5c9e9a8157, type: 3}
       propertyPath: _menuButton
       value: 
@@ -5928,6 +6016,10 @@ PrefabInstance:
       propertyPath: _text
       value: 
       objectReference: {fileID: 503592223}
+    - target: {fileID: 1336661764620153451, guid: 7552c871d405f2c419bd6e5c9e9a8157, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1487338039236890899, guid: 7552c871d405f2c419bd6e5c9e9a8157, type: 3}
       propertyPath: _canvas
       value: 
@@ -6040,6 +6132,10 @@ PrefabInstance:
       propertyPath: _pausePanel
       value: 
       objectReference: {fileID: 308876897}
+    - target: {fileID: 7712201986472112136, guid: 7552c871d405f2c419bd6e5c9e9a8157, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7717020776074197856, guid: 7552c871d405f2c419bd6e5c9e9a8157, type: 3}
       propertyPath: _menuButton
       value: 
@@ -6461,6 +6557,10 @@ PrefabInstance:
       propertyPath: _text
       value: 
       objectReference: {fileID: 503592223}
+    - target: {fileID: 1336661764620153451, guid: 7552c871d405f2c419bd6e5c9e9a8157, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1487338039236890899, guid: 7552c871d405f2c419bd6e5c9e9a8157, type: 3}
       propertyPath: _canvas
       value: 
@@ -6573,6 +6673,10 @@ PrefabInstance:
       propertyPath: _pausePanel
       value: 
       objectReference: {fileID: 308876897}
+    - target: {fileID: 7712201986472112136, guid: 7552c871d405f2c419bd6e5c9e9a8157, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7717020776074197856, guid: 7552c871d405f2c419bd6e5c9e9a8157, type: 3}
       propertyPath: _menuButton
       value: 
@@ -6768,6 +6872,10 @@ PrefabInstance:
       propertyPath: _text
       value: 
       objectReference: {fileID: 1229237399}
+    - target: {fileID: 1336661764620153451, guid: 7552c871d405f2c419bd6e5c9e9a8157, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1487338039236890899, guid: 7552c871d405f2c419bd6e5c9e9a8157, type: 3}
       propertyPath: _canvas
       value: 
@@ -6880,6 +6988,10 @@ PrefabInstance:
       propertyPath: _pausePanel
       value: 
       objectReference: {fileID: 308876897}
+    - target: {fileID: 7712201986472112136, guid: 7552c871d405f2c419bd6e5c9e9a8157, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7717020776074197856, guid: 7552c871d405f2c419bd6e5c9e9a8157, type: 3}
       propertyPath: _menuButton
       value: 
@@ -7037,6 +7149,7 @@ GameObject:
   - component: {fileID: 942340409}
   - component: {fileID: 942340411}
   - component: {fileID: 942340410}
+  - component: {fileID: 942340412}
   m_Layer: 5
   m_Name: Background 2
   m_TagString: Untagged
@@ -7053,16 +7166,16 @@ RectTransform:
   m_GameObject: {fileID: 942340408}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.98, y: 0.96, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1271623737}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: -39.999996, y: -40}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &942340410
 MonoBehaviour:
@@ -7102,6 +7215,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 942340408}
   m_CullTransparentMesh: 1
+--- !u!114 &942340412
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 942340408}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86710e43de46f6f4bac7c8e50813a599, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_AspectMode: 4
+  m_AspectRatio: 1.8
 --- !u!1001 &974002302
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7114,6 +7241,10 @@ PrefabInstance:
       propertyPath: _text
       value: 
       objectReference: {fileID: 503592223}
+    - target: {fileID: 1336661764620153451, guid: 7552c871d405f2c419bd6e5c9e9a8157, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1487338039236890899, guid: 7552c871d405f2c419bd6e5c9e9a8157, type: 3}
       propertyPath: _canvas
       value: 
@@ -7226,6 +7357,10 @@ PrefabInstance:
       propertyPath: _pausePanel
       value: 
       objectReference: {fileID: 308876897}
+    - target: {fileID: 7712201986472112136, guid: 7552c871d405f2c419bd6e5c9e9a8157, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7717020776074197856, guid: 7552c871d405f2c419bd6e5c9e9a8157, type: 3}
       propertyPath: _menuButton
       value: 
@@ -7633,6 +7768,10 @@ PrefabInstance:
       propertyPath: _text
       value: 
       objectReference: {fileID: 503592223}
+    - target: {fileID: 1336661764620153451, guid: 7552c871d405f2c419bd6e5c9e9a8157, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1487338039236890899, guid: 7552c871d405f2c419bd6e5c9e9a8157, type: 3}
       propertyPath: _canvas
       value: 
@@ -7745,6 +7884,10 @@ PrefabInstance:
       propertyPath: _pausePanel
       value: 
       objectReference: {fileID: 308876897}
+    - target: {fileID: 7712201986472112136, guid: 7552c871d405f2c419bd6e5c9e9a8157, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7717020776074197856, guid: 7552c871d405f2c419bd6e5c9e9a8157, type: 3}
       propertyPath: _menuButton
       value: 
@@ -8512,6 +8655,10 @@ PrefabInstance:
       propertyPath: _text
       value: 
       objectReference: {fileID: 503592223}
+    - target: {fileID: 1336661764620153451, guid: 7552c871d405f2c419bd6e5c9e9a8157, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1487338039236890899, guid: 7552c871d405f2c419bd6e5c9e9a8157, type: 3}
       propertyPath: _canvas
       value: 
@@ -8624,6 +8771,10 @@ PrefabInstance:
       propertyPath: _pausePanel
       value: 
       objectReference: {fileID: 308876897}
+    - target: {fileID: 7712201986472112136, guid: 7552c871d405f2c419bd6e5c9e9a8157, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7717020776074197856, guid: 7552c871d405f2c419bd6e5c9e9a8157, type: 3}
       propertyPath: _menuButton
       value: 
@@ -8903,6 +9054,10 @@ PrefabInstance:
       propertyPath: _text
       value: 
       objectReference: {fileID: 503592223}
+    - target: {fileID: 1336661764620153451, guid: 7552c871d405f2c419bd6e5c9e9a8157, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1487338039236890899, guid: 7552c871d405f2c419bd6e5c9e9a8157, type: 3}
       propertyPath: _canvas
       value: 
@@ -9015,6 +9170,10 @@ PrefabInstance:
       propertyPath: _pausePanel
       value: 
       objectReference: {fileID: 308876897}
+    - target: {fileID: 7712201986472112136, guid: 7552c871d405f2c419bd6e5c9e9a8157, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7717020776074197856, guid: 7552c871d405f2c419bd6e5c9e9a8157, type: 3}
       propertyPath: _menuButton
       value: 
@@ -9308,6 +9467,10 @@ PrefabInstance:
       propertyPath: _text
       value: 
       objectReference: {fileID: 503592223}
+    - target: {fileID: 1336661764620153451, guid: 7552c871d405f2c419bd6e5c9e9a8157, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1487338039236890899, guid: 7552c871d405f2c419bd6e5c9e9a8157, type: 3}
       propertyPath: _canvas
       value: 
@@ -9420,6 +9583,10 @@ PrefabInstance:
       propertyPath: _pausePanel
       value: 
       objectReference: {fileID: 308876897}
+    - target: {fileID: 7712201986472112136, guid: 7552c871d405f2c419bd6e5c9e9a8157, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7717020776074197856, guid: 7552c871d405f2c419bd6e5c9e9a8157, type: 3}
       propertyPath: _menuButton
       value: 
@@ -10735,6 +10902,10 @@ PrefabInstance:
       propertyPath: _text
       value: 
       objectReference: {fileID: 503592223}
+    - target: {fileID: 1336661764620153451, guid: 7552c871d405f2c419bd6e5c9e9a8157, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1487338039236890899, guid: 7552c871d405f2c419bd6e5c9e9a8157, type: 3}
       propertyPath: _canvas
       value: 
@@ -10847,6 +11018,10 @@ PrefabInstance:
       propertyPath: _pausePanel
       value: 
       objectReference: {fileID: 308876897}
+    - target: {fileID: 7712201986472112136, guid: 7552c871d405f2c419bd6e5c9e9a8157, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7717020776074197856, guid: 7552c871d405f2c419bd6e5c9e9a8157, type: 3}
       propertyPath: _menuButton
       value: 
@@ -11431,6 +11606,10 @@ PrefabInstance:
       propertyPath: _text
       value: 
       objectReference: {fileID: 503592223}
+    - target: {fileID: 1336661764620153451, guid: 7552c871d405f2c419bd6e5c9e9a8157, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1487338039236890899, guid: 7552c871d405f2c419bd6e5c9e9a8157, type: 3}
       propertyPath: _canvas
       value: 
@@ -11543,6 +11722,10 @@ PrefabInstance:
       propertyPath: _pausePanel
       value: 
       objectReference: {fileID: 308876897}
+    - target: {fileID: 7712201986472112136, guid: 7552c871d405f2c419bd6e5c9e9a8157, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7717020776074197856, guid: 7552c871d405f2c419bd6e5c9e9a8157, type: 3}
       propertyPath: _menuButton
       value: 
@@ -11733,7 +11916,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 9ff827cdca0c63b44ae1df304db48e35, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.2
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -12631,6 +12814,10 @@ PrefabInstance:
       propertyPath: _text
       value: 
       objectReference: {fileID: 503592223}
+    - target: {fileID: 1336661764620153451, guid: 7552c871d405f2c419bd6e5c9e9a8157, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1487338039236890899, guid: 7552c871d405f2c419bd6e5c9e9a8157, type: 3}
       propertyPath: _canvas
       value: 
@@ -12743,6 +12930,10 @@ PrefabInstance:
       propertyPath: _pausePanel
       value: 
       objectReference: {fileID: 308876897}
+    - target: {fileID: 7712201986472112136, guid: 7552c871d405f2c419bd6e5c9e9a8157, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7717020776074197856, guid: 7552c871d405f2c419bd6e5c9e9a8157, type: 3}
       propertyPath: _menuButton
       value: 
@@ -13306,6 +13497,10 @@ PrefabInstance:
       propertyPath: _text
       value: 
       objectReference: {fileID: 503592223}
+    - target: {fileID: 1336661764620153451, guid: 7552c871d405f2c419bd6e5c9e9a8157, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1487338039236890899, guid: 7552c871d405f2c419bd6e5c9e9a8157, type: 3}
       propertyPath: _canvas
       value: 
@@ -13418,6 +13613,10 @@ PrefabInstance:
       propertyPath: _pausePanel
       value: 
       objectReference: {fileID: 308876897}
+    - target: {fileID: 7712201986472112136, guid: 7552c871d405f2c419bd6e5c9e9a8157, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7717020776074197856, guid: 7552c871d405f2c419bd6e5c9e9a8157, type: 3}
       propertyPath: _menuButton
       value: 
@@ -13874,6 +14073,10 @@ PrefabInstance:
       propertyPath: _text
       value: 
       objectReference: {fileID: 503592223}
+    - target: {fileID: 1336661764620153451, guid: 7552c871d405f2c419bd6e5c9e9a8157, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1487338039236890899, guid: 7552c871d405f2c419bd6e5c9e9a8157, type: 3}
       propertyPath: _canvas
       value: 
@@ -13990,6 +14193,10 @@ PrefabInstance:
       propertyPath: _listLevelPanel
       value: 
       objectReference: {fileID: 673868898}
+    - target: {fileID: 7712201986472112136, guid: 7552c871d405f2c419bd6e5c9e9a8157, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7717020776074197856, guid: 7552c871d405f2c419bd6e5c9e9a8157, type: 3}
       propertyPath: _menuButton
       value: 
