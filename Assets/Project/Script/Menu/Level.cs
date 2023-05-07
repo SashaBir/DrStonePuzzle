@@ -12,5 +12,7 @@ namespace Puzzle
         [field: SerializeField] public Button Play { get; private set; }   
 
         [field: SerializeField] public GameObject Panel { get; private set; }
+
+        [field: SerializeField] public string Name { get; private set; }
     }
 }

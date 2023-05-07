@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using TMPro;
+using UnityEngine;
 
 namespace Puzzle
 {
@@ -7,6 +8,7 @@ namespace Puzzle
         [SerializeField] private GameObject _listLevelsPanel;
         [SerializeField] private GameObject _puzzlePanel;
         [SerializeField] private Level[] _levels;
+        [SerializeField] private TextMeshProUGUI _titleName;
 
         private void OnEnable()
         {
@@ -26,7 +28,9 @@ namespace Puzzle
         {
             _listLevelsPanel.SetActive(false);
             _puzzlePanel.SetActive(true);
-            
+
+            _titleName.text = level.Name;
+
             level.Panel.SetActive(true);
             level.Starter.StartGame();
         }
