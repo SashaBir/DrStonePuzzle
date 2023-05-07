@@ -8,7 +8,8 @@ namespace Puzzle
     {
         [Header("Volume")]
         [SerializeField] private Button _play;
-        [SerializeField] private GameObject _menu;
+        [SerializeField] private Button _menu;
+        [SerializeField] private GameObject _menuPanel;
         [SerializeField] private GameObject _gamePanel;
 
         [Header("Volume")]
@@ -22,26 +23,33 @@ namespace Puzzle
         private void Start()
         {
             _audio = AudioManagement.Instance;
-        }
 
-        private void OnEnable()
-        {
             _play.onClick.AddListener(OnSwitchToGamePanel);
+            _menu.onClick.AddListener(OnSwitchToMenuPanel);
+
             _music.onClick.AddListener(OnControlMusicVolume);
             _sound.onClick.AddListener(OnControlSoundVolume);
         }
 
-        private void OnDisable()
+        private void OnDestroy()
         {
             _play.onClick.RemoveListener(OnSwitchToGamePanel);
+            _menu.onClick.RemoveListener(OnSwitchToMenuPanel);
+
             _music.onClick.RemoveListener(OnControlMusicVolume);
             _sound.onClick.RemoveListener(OnControlSoundVolume);
         }
 
         private void OnSwitchToGamePanel()
         {
-            _menu.SetActive(false);
+            _menuPanel.SetActive(false);
             _gamePanel.SetActive(true);
+        }
+
+        private void OnSwitchToMenuPanel()
+        {
+            _menuPanel.SetActive(true);
+            _gamePanel.SetActive(false);
         }
 
         private void OnControlMusicVolume()
