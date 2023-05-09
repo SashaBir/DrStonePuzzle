@@ -20,7 +20,9 @@ namespace Puzzle
             _timer.RestartTimer();
             _counter.ResetCounter();
 
-            _gameOverPanel.SetActive(false);    
+            _gameOverPanel.SetActive(false);
+
+            _timer.Unpause();
         }
     }
 }

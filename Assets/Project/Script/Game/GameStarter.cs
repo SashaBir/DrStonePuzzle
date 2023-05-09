@@ -1,5 +1,4 @@
-﻿using TMPro;
-using UnityEngine;
+﻿using UnityEngine;
 
 namespace Puzzle
 {
@@ -12,6 +11,8 @@ namespace Puzzle
         {
             _generator.Generate();
             _timer.RestartTimer();
+
+            _timer.Unpause();
         }
     }
 }
