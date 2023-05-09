@@ -5,6 +5,7 @@ mergeInto(LibraryManager.library, {
             callbacks: {
                 onClose: function(wasShown) {
                 // some action after close
+                    console.log("-----Ad was closed-----");
                 },
                 onError: function(error) {
                 // some action on error

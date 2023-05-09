@@ -22,6 +22,8 @@ namespace Puzzle
 
         private void Start()
         {
+            Yandex.Instance.ShowAdInterstitial();
+
             _audio = AudioManagement.Instance;
 
             _play.onClick.AddListener(OnSwitchToGamePanel);
