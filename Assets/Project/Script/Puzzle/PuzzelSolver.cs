@@ -47,6 +47,7 @@ namespace Puzzle
             _status = EndStatus.TimeOut;
 
             Yandex.Instance.ShowAdInterstitial();
+            Yandex.Instance.RateGame();
 
             _gameOver.ShowTimeOutPanel();
             OnDisassambleds?.Invoke();
@@ -64,6 +65,7 @@ namespace Puzzle
             _status = EndStatus.Assambled;
 
             Yandex.Instance.ShowAdInterstitial();
+            Yandex.Instance.RateGame();
 
             _gameOver.ShowWonPanel();
             _timer.Pause();

@@ -12,6 +12,23 @@ mergeInto(LibraryManager.library, {
                 }
             }
         })
-    }
+    },
 
+    Rate: function () {
+        ysdk.feedback.canReview()
+            .then(({ value, reason }) => {
+                if (value) {
+                    ysdk.feedback.requestReview()
+                        .then(({ feedbackSent }) => {
+                            console.log(feedbackSent);
+                        })
+                } else {
+                    console.log(reason)
+                }
+            })
+    },
+
+    GetAllowRate : function () {
+        gameInstance.SendMessage('Yandex', 'SetAllowRate', ysdk.feedback.canReview());
+    }
 });
