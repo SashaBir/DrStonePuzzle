@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System.Runtime.InteropServices;
+using UnityEngine;
 using UnityEngine.UI;
 
 namespace Puzzle
@@ -12,7 +13,7 @@ namespace Puzzle
 
         private void OnEnable()
         {
-            if (IsRated == true || Yandex.Instance.CanRate == false)
+            if (IsRated == true)
                 _panel.SetActive(false);
 
             _rating.onClick.AddListener(OnRate);
@@ -25,9 +26,6 @@ namespace Puzzle
 
         private void OnRate()
         {
-            if (Yandex.Instance.CanRate == false)
-                return;
-
             Yandex.Instance.RateGame();
 
             _panel.SetActive(false);

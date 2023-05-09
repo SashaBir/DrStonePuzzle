@@ -10,10 +10,8 @@ namespace Puzzle
 
         [DllImport("__Internal")]
         private static extern void Rate();
-
+        
         public static Yandex Instance { get; private set; }
-
-        public bool CanRate { get; private set; } = false;
 
         private void Awake()
         {
@@ -25,14 +23,9 @@ namespace Puzzle
             ShowInterstitialAdvertising();
         }
 
-        public void SetAllowRate(bool can)
-        {
-            CanRate = can;
-        }
-
         public void RateGame()
         {
-            if (GameRater.IsRated == false && CanRate == true)
+            if (GameRater.IsRated == false)
                 Rate();
         }
     }

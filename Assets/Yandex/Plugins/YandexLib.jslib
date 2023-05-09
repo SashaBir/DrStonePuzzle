@@ -26,9 +26,6 @@ mergeInto(LibraryManager.library, {
                     console.log(reason)
                 }
             })
-    },
-
-    GetAllowRate : function () {
-        gameInstance.SendMessage('Yandex', 'SetAllowRate', ysdk.feedback.canReview());
     }
+
 });
