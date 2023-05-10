@@ -46,6 +46,8 @@ namespace Puzzle
 
             _status = EndStatus.TimeOut;
 
+            AudioManagement.Instance.PlayTimeOutSound();
+
             Yandex.Instance.ShowAdInterstitial();
             Yandex.Instance.RateGame();
 
@@ -63,6 +65,8 @@ namespace Puzzle
                 return;
 
             _status = EndStatus.Assambled;
+
+            AudioManagement.Instance.PlayWonSound();
 
             Yandex.Instance.ShowAdInterstitial();
             Yandex.Instance.RateGame();

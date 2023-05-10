@@ -63,36 +63,45 @@ namespace Puzzle
 
         public void PlayButtonClickSound()
         {
-            Play(_buttonClickSound);
+            PlaySound(_buttonClickSound);
         }
 
         public void PlayWonSound()
         {
-            Play(_wonSound);
+            PlayMusic(_wonSound);
         }
 
         public void PlayTimeOutSound()
         {
-            Play(_timeOutSound);
+            PlayMusic(_timeOutSound);
         }
 
         public void PlaySetPuzzleSound()
         {
-            Play(_setPuzzle);
+            PlaySound(_setPuzzle);
         }
 
         public void PlayTakenPuzzleSound()
         {
-            Play(_takenPuzzle);
+            PlaySound(_takenPuzzle);
         }
 
-        private void Play(AudioClip clip)
+        private void PlaySound(AudioClip clip)
         {
             if (IsPlayingSound == false)
                 return;
 
             _sound.clip = clip;
             _sound.Play();
+        }
+
+        private void PlayMusic(AudioClip clip)
+        {
+            if (IsPlayingMusic == false)
+                return;
+
+            _music.clip = clip;
+            _music.Play();
         }
     }
 }
