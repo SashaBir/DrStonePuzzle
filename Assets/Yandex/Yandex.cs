@@ -26,7 +26,7 @@ namespace Puzzle
         public void RateGame()
         {
             if (GameRater.IsRated == false)
-                Rate();
+                GameRater.Instance.Rate();
         }
     }
 }

@@ -1,5 +1,4 @@
-﻿using System.Runtime.InteropServices;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.UI;
 
 namespace Puzzle
@@ -10,6 +9,13 @@ namespace Puzzle
         [SerializeField] private Button _rating;
 
         public static bool IsRated { get; private set; } = false;
+
+        public static GameRater Instance { get; private set; }
+
+        private void Awake()
+        {
+            Instance ??= this;
+        }
 
         private void OnEnable()
         {
@@ -25,6 +31,11 @@ namespace Puzzle
         }
 
         private void OnRate()
+        {
+            Rate();
+        }
+
+        public void Rate()
         {
             Yandex.Instance.RateGame();
 
