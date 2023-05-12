@@ -32,11 +32,15 @@ namespace Puzzle
 
         private void OnRate()
         {
-            Rate();
+            if (IsRated == false)
+                Rate();
         }
 
         public void Rate()
         {
+            if (IsRated == true)
+                return;
+
             Yandex.Instance.RateGame();
 
             _panel.SetActive(false);

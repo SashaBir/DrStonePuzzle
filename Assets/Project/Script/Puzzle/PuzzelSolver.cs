@@ -49,7 +49,7 @@ namespace Puzzle
             AudioManagement.Instance.PlayTimeOutSound();
 
             Yandex.Instance.ShowAdInterstitial();
-            Yandex.Instance.RateGame();
+            GameRater.Instance.Rate();
 
             _gameOver.ShowTimeOutPanel();
             OnDisassambleds?.Invoke();
@@ -69,7 +69,7 @@ namespace Puzzle
             AudioManagement.Instance.PlayWonSound();
 
             Yandex.Instance.ShowAdInterstitial();
-            Yandex.Instance.RateGame();
+            GameRater.Instance.Rate();
 
             _gameOver.ShowWonPanel();
             _timer.Pause();
