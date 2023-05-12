@@ -68,12 +68,12 @@ namespace Puzzle
 
         public void PlayWonSound()
         {
-            PlayMusic(_wonSound);
+            PlaySound(_wonSound);
         }
 
         public void PlayTimeOutSound()
         {
-            PlayMusic(_timeOutSound);
+            PlaySound(_timeOutSound);
         }
 
         public void PlaySetPuzzleSound()
@@ -93,15 +93,6 @@ namespace Puzzle
 
             _sound.clip = clip;
             _sound.Play();
-        }
-
-        private void PlayMusic(AudioClip clip)
-        {
-            if (IsPlayingMusic == false)
-                return;
-
-            _music.clip = clip;
-            _music.Play();
         }
     }
 }
